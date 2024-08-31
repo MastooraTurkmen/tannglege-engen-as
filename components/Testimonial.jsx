@@ -12,6 +12,7 @@ import TestimonialComponent from "./TestimonialComponent";
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+
   // Resize
   const [isMobile, setIsMobile] = useState(false);
 
@@ -56,11 +57,11 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="m-14">
+    <div className="sm:m-10 lg:m-14 2xl:m-20 my-5">
       <div className="relative">
         <img
           src="/svg/testimonial.svg"
-          className="absolute left-10 h-[80px]"
+          className="absolute left-5 top-7 lg:top-0 lg:left-10 h-[40px] md:h-[50px] lg:h-[80px]"
           alt=""
         />
         <div className="flex transition duration-300 ease-linear flex-row mb-14 justify-center">
@@ -70,36 +71,35 @@ const Testimonial = () => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-between items-center relative p-10">
+      <div className="flex justify-between items-center relative p-5">
         <IoIosArrowDropleftCircle
           onClick={prevBtn}
-          className="text-[#00415A] hover:text-black transition-colors duration-300 ease-in-out cursor-pointer text-[70px]"
+          className="text-[#00415A] hover:text-black transition-colors duration-300 ease-in-out 
+          cursor-pointer sm:text-[60px] text-[40px] lg:text-[70px]"
         />
-        <div className="flex gap-10 overflow-hidden">
-          <motion.div
-            key={currentIndex}
-            className="flex gap-10 overflow-hidden"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={variants}
-            transition={{ duration: 0.8 }}
-          >
-            {isMobile
-              ? [testimonial[currentIndex]].map((item, index) => (
-                  <TestimonialComponent key={index} item={item} />
-                ))
-              : [
-                  testimonial[currentIndex],
-                  testimonial[(currentIndex + 1) % testimonial.length],
-                ].map((item, index) => (
-                  <TestimonialComponent key={index} item={item} />
-                ))}
-          </motion.div>
-        </div>
+        <motion.div
+          key={currentIndex}
+          className="flex lg:gap-10 overflow-hidden"
+          initial="initial"
+          animate="animate"
+          exit="exit"
+          variants={variants}
+          transition={{ duration: 0.8 }}
+        >
+          {isMobile
+            ? [testimonial[currentIndex]].map((item, index) => (
+                <TestimonialComponent key={index} item={item} />
+              ))
+            : [
+                testimonial[currentIndex],
+                testimonial[(currentIndex + 1) % testimonial.length],
+              ].map((item, index) => (
+                <TestimonialComponent key={index} item={item} />
+              ))}
+        </motion.div>
         <IoIosArrowDroprightCircle
           onClick={nextBtn}
-          className="text-[#00415A] cursor-pointer text-[70px] hover:text-black transition-colors duration-300 ease-in-out"
+          className="text-[#00415A] cursor-pointer sm:text-[60px] text-[40px] lg:text-[70px] hover:text-black transition-colors duration-300 ease-in-out"
         />
       </div>
       <div className="pb-10 flex gap-1 justify-center items-center">
@@ -109,8 +109,8 @@ const Testimonial = () => {
             onClick={() => setCurrentIndex(index)}
             className={`cursor-pointer transition duration-300 ease-in-out rounded-full ${
               index === currentIndex
-                ? "bg-[#00B8FF] w-5 h-5"
-                : "bg-[#00415A] w-[15px] h-[15px]"
+                ? "bg-[#00B8FF] h-3 w-3 sm:w-5 sm:h-5"
+                : "bg-[#00415A] h-2 w-2 sm:w-[15px] sm:h-[15px]"
             }`}
           ></div>
         ))}
