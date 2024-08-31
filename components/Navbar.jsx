@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-[hsl(197,100%,18%)] fixed w-full z-10 shadow-lg items-center md:py-1 px-5 flex justify-between">
+      <div className="bg-[hsl(197,100%,18%)] fixed w-full z-20 shadow-lg items-center md:py-1 px-5 flex justify-between">
         <a href="/">
           <img
             src="/images/Tooth-Sumo.png"
             alt="logo"
-            className="w-20 md:w-25"
+            className="w-20 h-20 md:w-24 object-cover"
           />
         </a>
         <img
@@ -59,6 +59,7 @@ const Navbar = () => {
         </ul>
         <Button
           text="Kontakt oss"
+          link="#footer"
           change="hidden md:block text-[16px] md:pt-[10px]"
         />
       </div>
@@ -86,7 +87,7 @@ const Navbar = () => {
               );
             })}
           </animated.ul>
-          <Button text="Kontakt oss" />
+          <Button link="#footer" text="Kontakt oss" />
         </animated.div>
       )}
     </>
