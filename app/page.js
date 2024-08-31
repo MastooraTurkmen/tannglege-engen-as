@@ -1,16 +1,19 @@
-import { Hero, Navbar, Section2, Section3, Services, Sections, Testimonial, Footer } from "@/components"
+import {
+  Hero, Section2, Section3, Services, Sections, Testimonial, Section4, OpeningHourse, Section5
+} from "@/components"
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Services />
       <Sections />
       <Section2 />
       <Section3 />
       <Testimonial />
-      <Footer />
+      <Section4 />
+      <OpeningHourse />
+      <Section5 />
     </div>
   )
 }
