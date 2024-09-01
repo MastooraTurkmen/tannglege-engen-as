@@ -15,4 +15,3 @@ export { default as OpeningHourse } from './OpeningHourse';
 export { default as Location } from './Location';
 export { default as AboutHero } from './AboutHero';
 export { default as PricesHero } from './PricesHero';
-export { default as ServicesHero } from './ServicesHero';
