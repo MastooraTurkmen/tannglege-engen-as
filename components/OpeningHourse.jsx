@@ -3,7 +3,7 @@ import { open } from "@/contract/data";
 const OpeningHourse = () => {
   return (
     <div className="flex m-14 flex-col justify-center text-center items-center text-black">
-      <h1 className="md:text-3xl text-xl z-10 font-bold">Opening hours</h1>
+      <h1 className="md:text-3xl text-xl z-10 font-bold">Åpningstider</h1>
       <div className="bg-[#00B8FF] z-0 mt-[-6px] py-1 md:px-[110px] px-[90px] border-none"></div>
       <div className="flex gap-10 md:gap-2 lg:gap-0 flex-col md:flex-row justify-between text-center items-center py-24 p-10 lg:p-20">
         {open.map(({ id, day, time }, index) => {
