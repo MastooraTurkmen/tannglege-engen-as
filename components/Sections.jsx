@@ -29,14 +29,14 @@ const Sections = () => {
       xl:flex xl:flex-col xl:justify-center"
       >
         <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl mb-10 font-bold">
-          Clear Dental Clinic - your dentist in{" "}
-          <span className="text-[#00B8FF]">Oslo</span> and Drammen
+          Clear Dental Clinic - din tannlege i{" "}
+          <span className="text-[#00B8FF]">Oslo</span> og Hanshaugen
         </h1>
         <p className="xl:text-xl text-sm">
-          Good dental health is important, whether you are young or old.
-          However, it is also important to find a dentist you feel comfortable
-          with. Clear Dental Clinic has a number of skilled dentists and
-          specialists who will take excellent care of you as a patient.
+          God tannhelse er viktig, enten du er ung eller gammel. Det er
+          imidlertid også viktig å finne en tannlege du føler deg komfortabel
+          med med. Clear Dental Clinic har en rekke dyktige tannleger og
+          spesialister som vil ta godt vare på deg som pasient.
         </p>
       </div>
     </div>
