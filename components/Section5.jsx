@@ -13,7 +13,7 @@ const Section5 = ({ children }) => {
       />
       <div className="py-24 m-auto xl:mx-40 mx-10">
         <h1 className="text-xl flex mb-10 font-bold md:text-3xl lg:text-4xl">
-          Book an appointment digitally with your dentist at Oslo
+          Bestill time digitalt hos din tannlege i Oslo
         </h1>
         <Button link="/services" text="Book an Appointment" />
       </div>
