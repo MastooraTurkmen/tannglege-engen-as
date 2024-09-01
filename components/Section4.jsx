@@ -15,7 +15,7 @@ const Section4 = () => {
           After all, you are the focus. The experiences with us are designed for
           you, the prices are set on your terms,
         </p>
-        <Button link="#footer" text="Book an Appointment" />
+        <Button link="/services" text="Book an Appointment" />
       </div>
       <div
         style={{ flexBasis: "60%" }}
