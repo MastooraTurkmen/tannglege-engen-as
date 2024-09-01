@@ -51,3 +51,14 @@ export const imagse = [
     },
 ]
 
+
+export const items = [
+    {
+        id: 1,
+        text: "Vi har OPG og direkte oppgjør med NAV, noe som betyr at pasientene ikke selv må forskuttere betaling av behandlingen.",
+    },
+    {
+        id: 2,
+        text: "Vi tilbyr det meste innen tannbehandling. Klinikken er kjent for sitt gode humør og personlighet.",
+    },
+];
