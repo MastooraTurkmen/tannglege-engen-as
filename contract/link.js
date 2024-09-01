@@ -1,22 +1,22 @@
 export const link = [
     {
         id: 1,
-        text: 'Home',
+        text: 'Hjem',
         path: '/'
     },
     {
         id: 2,
-        text: 'About us',
-        path: '/about'
+        text: 'Om oss',
+        path: '/Omoss'
     },
     {
         id: 3,
-        text: 'Prices',
-        path: '/prices'
+        text: 'Priser',
+        path: '/Priser'
     },
     {
         id: 4,
-        text: 'Services',
-        path: '/services'
+        text: 'Tjenester',
+        path: '/Tjenester'
     }
 ]
