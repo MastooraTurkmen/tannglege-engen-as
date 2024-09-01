@@ -59,7 +59,7 @@ const Navbar = () => {
         </ul>
         <Button
           text="Kontakt oss"
-          link="#footer"
+          link="/services"
           change="hidden md:block text-[16px] md:pt-[10px]"
         />
       </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
               );
             })}
           </animated.ul>
-          <Button link="#footer" text="Kontakt oss" />
+          <Button link="/services" text="Kontakt oss" />
         </animated.div>
       )}
     </>
