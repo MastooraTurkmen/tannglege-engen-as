@@ -16,7 +16,7 @@ const AboutComponent = () => {
           Tannlege Engen AS er en tannklinikk midt på St. Hanshaugen i Oslo
           sentrum. Vi har lyse pene lokaler med moderne utstyr. 
         </p>
-        <Button link="/services" text="Book An Appointment" />
+        <Button link="/services" text="Bestill en avtale" />
       </div>
       <div
         style={{
