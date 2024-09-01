@@ -15,7 +15,7 @@ const Section5 = ({ children }) => {
         <h1 className="text-xl flex mb-10 font-bold md:text-3xl lg:text-4xl">
           Bestill time digitalt hos din tannlege i Oslo
         </h1>
-        <Button link="#footer" text="Book an Appointment" />
+        <Button link="#footer" text="Bestill time" />
       </div>
     </div>
   );
