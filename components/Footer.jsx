@@ -44,7 +44,7 @@ const Footer = () => {
       </p>
       <div className="bg-black text-[10px] md:text-sm text-white p-10">
         <h1>
-          Design and Developed By{" "}
+          Design og utviklet av{" "}
           <a
             target="_blanket"
             className="font-bold underline"
