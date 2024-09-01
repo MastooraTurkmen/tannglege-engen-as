@@ -3,14 +3,15 @@ const Section3 = () => {
     <div className="flex text-white bg-[hsl(197,100%,18%)] flex-col sm:flex-row">
       <div className="flex py-24 xl:mx-40 flex-col justify-center mx-10">
         <h1 className="text-xl mb-5 font-bold md:text-3xl lg:text-4xl">
-          Dental Solutions for Your Smile
+          Tannløsninger for smilet ditt
         </h1>
         <p className="text-sm md:text-base lg:text-xl">
-          Our comprehensive dental practice offers a wide range of preventive,
-          restorative, and cosmetic treatments to meet all your oral healthcare
-          needs. From routine cleanings and exams to advanced procedures like
-          dental implants and orthodontics, we are dedicated to helping you
-          maintain a healthy, beautiful smile for life.
+          Vår omfattende tannlegepraksis tilbyr et bredt spekter av
+          forebyggende, gjenopprettende og kosmetiske behandlinger for å dekke
+          alle dine orale helsebehov. Fra rutinemessige rengjøringer og
+          undersøkelser til avanserte prosedyrer som tannimplantater og
+          kjeveortopedi, vi er dedikerte til å hjelpe deg opprettholde et sunt,
+          vakkert smil for livet.
         </p>
       </div>
       <img
