@@ -1,37 +1,37 @@
 export const data = [
     {
         id: 1,
-        text: 'With us, expertise and care combine for an experience that makes you smile.',
+        text: 'Hos oss kombineres kompetanse og omsorg for en opplevelse som får deg til å smile.',
     },
     {
         id: 2,
-        text: 'With us, expertise and care combine for an experience that makes you smile.',
+        text: 'Pasientforhold er kjernen i det vi gjør.',
     },
     {
         id: 3,
-        text: 'With us, expertise and care combine for an experience that makes you smile.',
+        text: 'Vi forstår at det å besøke tannlegen noen ganger kan være en engstelig opplevelse.',
     },
     {
         id: 4,
-        text: 'With us, expertise and care combine for an experience that makes you smile.',
+        text: 'vi har designet vår praksis for å være så innbydende og komfortabel som mulig.',
     },
 ]
 
 export const open = [
     {
         id: 1,
-        day: 'Monday to Thursday',
+        day: 'Mandag til torsdag',
         time: "07:00 – 15:00",
     },
     {
         id: 2,
-        day: 'Friday',
+        day: 'Fredag',
         time: "07:00 – 13:00",
     },
     {
         id: 3,
-        day: 'Saturday, Sunday and public holidays',
-        time: "Closed",
+        day: 'Lørdag, søndag og helligdager',
+        time: "Stengt",
     },
 ]
 
