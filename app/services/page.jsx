@@ -1,10 +1,11 @@
-import { OpeningHourse, Services } from "@/components";
+import { OpeningHourse, Section5, Services } from "@/components";
 
 const page = () => {
   return (
     <div className="pt-24">
       <Services />
       <OpeningHourse />
+      <Section5 />
     </div>
   );
 };
