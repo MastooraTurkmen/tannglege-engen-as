@@ -3,9 +3,7 @@ import { services } from "@/contract/services";
 const Section2 = () => {
   return (
     <div className="flex m-14 flex-col justify-center text-center items-center text-black">
-      <h1 className="md:text-3xl text-xl font-bold">
-        Our Dental Services
-      </h1>
+      <h1 className="md:text-3xl text-xl font-bold">Våre tannhelsetjenester</h1>
       <div className="bg-[#00B8FF] mt-[-8px] py-1 md:px-[140px] px-[90px] border-none"></div>
       {/* Card Compontent */}
       <div className="flex flex-row flex-wrap m-10 text-center justify-center">
@@ -20,7 +18,7 @@ const Section2 = () => {
               10.324
             </h1>
             <p className="text-sm lg:text-base">
-              Successfully installed implants
+              Vellykket installerte implantater
             </p>
           </div>
         </div>
@@ -34,7 +32,7 @@ const Section2 = () => {
             <h1 className="lg:text-2xl text-xl text-[#F2994A] font-bold">
               4.8
             </h1>
-            <p className="text-sm lg:text-base">Average Rating</p>
+            <p className="text-sm lg:text-base">Gjennomsnittlig vurdering</p>
           </div>
         </div>
         <div className="flex flex-row shadow-xl p-5 px-10 m-5 border rounded-xl justify-center items-center">
@@ -44,8 +42,8 @@ const Section2 = () => {
             alt="image"
           />
           <div className="flex flex-col w-40 text-start">
-            <p className="text-sm lg:text-base">Procedure</p>
-            <p className="text-sm lg:text-base">Average</p>
+            <p className="text-sm lg:text-base">Prosedyre</p>
+            <p className="text-sm lg:text-base">Gjennomsnittlig</p>
           </div>
         </div>
       </div>
