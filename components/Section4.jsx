@@ -9,11 +9,11 @@ const Section4 = () => {
         className="lg:py-24 2xl:py-32 py-10 xl:ml-20 justify-center mx-10 sm:ml-10"
       >
         <h1 className="text-xl mb-5 font-bold md:text-3xl lg:text-4xl">
-          Dental Solutions for Your Smile
+          Tannløsninger for smilet ditt
         </h1>
         <p className="text-sm md:text-base lg:text-xl my-10">
-          After all, you are the focus. The experiences with us are designed for
-          you, the prices are set on your terms,
+          Det er tross alt du som er i fokus. Opplevelsene hos oss er laget for
+          du, prisene er satt på dine vilkår
         </p>
         <Button link="/services" text="Book an Appointment" />
       </div>
