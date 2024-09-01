@@ -37,7 +37,7 @@ const Hero = () => {
       <h1 className="xl:text-[40px] md:text-3xl lg:text-4xl m-5 text-[16px] mx-5 2xl:mx-80 py-5 text-center font-extrabold">
         Vi holder til midt på kSt. Hanshaugen i Oslo sentrum.
       </h1>
-      <Button link="#footer" text="Book Now" change="text-[12px]" />
+      <Button link="/services" text="Book Now" change="text-[12px]" />
     </div>
   );
 };
