@@ -68,7 +68,7 @@ const Navbar = () => {
       {openMenu && (
         <animated.div
           style={fade}
-          className="bg-[#00415A] z-50 absolute top-0 h-full w-full justify-center gap-10 flex flex-col items-center text-center"
+          className="bg-[#00415A] z-50 fixed h-full w-full justify-center gap-10 flex flex-col items-center text-center"
         >
           <img
             src="/svg/x.svg"
