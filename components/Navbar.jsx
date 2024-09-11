@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-[hsl(197,100%,18%)] fixed w-full z-20 shadow-lg items-center md:py-1 px-5 flex justify-between">
+      <div className="bg-[hsl(197,100%,18%)] p-5 fixed w-full z-20 shadow-lg items-center px-5 flex justify-between">
         <a href="/">
           <img
-            src="/images/Tooth-Sumo.png"
+            src="/images/logo-no-background.png"
             alt="logo"
-            className="w-20 h-20 md:w-24 object-cover"
+            className="md:w-52 h-8 lg:w-full lg:h-10 object-cover"
           />
         </a>
         <img
