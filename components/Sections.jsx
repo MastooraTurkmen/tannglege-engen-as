@@ -2,12 +2,12 @@ const Sections = () => {
   return (
     <div
       className="flex relative gap-10 justify-between flex-row bg-[hsl(197,100%,18%)] 
-    mb-10 md:px-16 lg:px-20"
+    mb-10 md:px-16 lg:px-20 pb-20 md:pb-0 md:h-[700px] lg:h-[600px] xl:h-[500px]"
     >
       <div>
-        <div className="flex">
-          <div className="bg-black p-[5px] md:p-[15px] w-2 h-[500px]"></div>
-          <div className="bg-[#00B8FF] md:p-[60px] p-[14px] lg:p-[80px] w-2 h-[500px]"></div>
+        <div className="flex xl:h-[500px] h-[550px] md:h-[700px] lg:h-[600px]">
+          <div className="bg-black p-[5px] md:p-[15px] w-2 "></div>
+          <div className="bg-[#00B8FF] md:p-[60px] p-[14px] lg:p-[80px] w-2"></div>
         </div>
         <div className="absolute md:bottom-[100px] bottom-[120px] left-9 xl:top-[100px] md:left-40">
           <img
@@ -32,7 +32,7 @@ const Sections = () => {
           Clear Dental Clinic - din tannlege i{" "}
           <span className="text-[#00B8FF]">Oslo</span> og Hanshaugen
         </h1>
-        <p className="xl:text-xl text-sm">
+        <p className="text-base md:text-xl">
           God tannhelse er viktig, enten du er ung eller gammel. Det er
           imidlertid også viktig å finne en tannlege du føler deg komfortabel
           med med. Clear Dental Clinic har en rekke dyktige tannleger og
