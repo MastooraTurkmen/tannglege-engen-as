@@ -5,7 +5,7 @@ import PricesComponent from "./PricesComponent";
 const PricesHero = () => {
   return (
     <>
-      <div className="flex m-14 flex-col justify-center text-center items-center text-black">
+      <div className="flex lg:m-14 m-5 flex-col justify-center text-center items-center text-black">
         <h1 className="md:text-3xl text-2xl font-bold">Prisliste</h1>
         <div className="bg-[#00B8FF] mt-[-8px] py-1 md:px-[60px] px-[50px] border-none"></div>
         <p className="md:m-10 m-5 text-xl md:text-2xl">
