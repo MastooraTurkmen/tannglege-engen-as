@@ -1,7 +1,7 @@
 export const about = [
     {
         id: 1,
-        image: '/images/Ann-Kristin-image.jpg',
+        image: '/new-images/Ann.png',
         name: 'Ann-Kristin Engen',
         position: "Tannlege MNTF",
         about1: 'Praksisinnehaver siden 2005',
@@ -10,7 +10,7 @@ export const about = [
     },
     {
         id: 2,
-        image: '/images/Ellen.jpg',
+        image: '/new-images/Ellen.png',
         name: 'Ellen Hodt Smith',
         position: "Tannpleier MNTP",
         about1: 'Ellen har jobbet sammen med oss siden 1998.',
@@ -19,7 +19,7 @@ export const about = [
     },
     {
         id: 3,
-        image: '/images/Katrin.jpg',
+        image: '/new-images/Catrin.png',
         name: 'Catrine Ødemark',
         position: "Tannlegesekretær",
         about1: 'Catrine har jobbet sammen med oss fra 1997.',
