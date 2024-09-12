@@ -24,7 +24,7 @@ const Hero = () => {
       className="bg-cover h-[120vh] flex flex-col justify-center bg-no-repeat text-center items-center text-white"
       style={{
         background:
-          "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/new-images/women.png)",
+          "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/new-images/women.jpeg)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "top",
