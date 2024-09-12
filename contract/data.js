@@ -39,15 +39,15 @@ export const open = [
 export const imagse = [
     {
         id: 1,
-        image: '/images/Katrin.png',
+        image: '/new-images/Catrin.png',
     },
     {
         id: 2,
-        image: '/images/Ann.png',
+        image: '/new-images/Ann.png',
     },
     {
         id: 3,
-        image: '/images/Ellen.png',
+        image: '/new-images/Ellen.png',
     },
 ]
 
