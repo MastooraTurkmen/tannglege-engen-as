@@ -16,7 +16,7 @@ const Section3 = () => {
       </div>
       <img
         className="sm:h-[500px] h-[400px] object-top object-cover"
-        src="/images/women.jpeg"
+        src="/new-images/women.png"
         alt="dintents"
       />
     </div>
