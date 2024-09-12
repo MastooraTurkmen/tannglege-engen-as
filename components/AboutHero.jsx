@@ -23,7 +23,7 @@ const AboutHero = () => {
       <AboutComponent2 />
       <Section3 />
       <AboutComponent3 />
-      <Section5 children="/images/Ellen.jpg" />
+      <Section5 children="/new-images/Ellen.png" />
     </div>
   );
 };
