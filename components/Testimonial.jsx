@@ -12,9 +12,23 @@ import TestimonialComponent from "./TestimonialComponent";
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-
   // Resize
   const [isMobile, setIsMobile] = useState(false);
+  const [hidArrows, setHideArrows] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHideArrows(window.innerWidth <= 500);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -65,18 +79,20 @@ const Testimonial = () => {
           alt=""
         />
         <div className="flex transition duration-300 ease-linear flex-row mb-14 justify-center">
-          <h1 className="md:text-3xl xl:text-4xl text-black text-center mt-8 text-xl font-bold">
+          <h1 className="md:text-3xl xl:text-4xl 2xl:text-5xl text-black text-center mt-8 text-2xl font-bold">
             <span className="text-[rgb(0,184,255)]">/</span> Testimonial
             <div className="bg-[#00B8FF] ml-5 mt-[-8px] py-1 px-[80px] border-none"></div>
           </h1>
         </div>
       </div>
       <div className="flex justify-between items-center relative p-5">
-        <IoIosArrowDropleftCircle
-          onClick={prevBtn}
-          className="text-[#00415A] hover:text-black transition-colors duration-300 ease-in-out 
+        {!hidArrows && (
+          <IoIosArrowDropleftCircle
+            onClick={prevBtn}
+            className="text-[#00415A] hover:text-black transition-colors duration-300 ease-in-out 
           cursor-pointer sm:text-[60px] text-[40px] lg:text-[70px]"
-        />
+          />
+        )}
         <motion.div
           key={currentIndex}
           className="flex lg:gap-10 overflow-hidden"
@@ -97,10 +113,12 @@ const Testimonial = () => {
                 <TestimonialComponent key={index} item={item} />
               ))}
         </motion.div>
-        <IoIosArrowDroprightCircle
-          onClick={nextBtn}
-          className="text-[#00415A] cursor-pointer sm:text-[60px] text-[40px] lg:text-[70px] hover:text-black transition-colors duration-300 ease-in-out"
-        />
+        {!hidArrows && (
+          <IoIosArrowDroprightCircle
+            onClick={nextBtn}
+            className="text-[#00415A] cursor-pointer sm:text-[60px] text-[40px] lg:text-[70px] hover:text-black transition-colors duration-300 ease-in-out"
+          />
+        )}
       </div>
       <div className="pb-10 flex gap-1 justify-center items-center">
         {testimonial.map((_, index) => (
