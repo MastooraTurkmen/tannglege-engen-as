@@ -21,10 +21,10 @@ const Hero = () => {
 
   return (
     <div
-      className="bg-cover h-[120vh] flex flex-col justify-center text-center items-center text-white"
+      className="bg-cover h-[120vh] flex flex-col justify-center bg-no-repeat text-center items-center text-white"
       style={{
         background:
-          "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/images/Dintists.jpg)",
+          "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/new-images/women.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "top",
@@ -34,10 +34,13 @@ const Hero = () => {
     >
       <p className="md:text-base text-xs z-1 mt-32">Velkommen til oss</p>
       <div className="bg-[#00B8FF] z-0 mt-[-5px] py-1 md:px-[70px] px-[50px] border-none"></div>
-      <h1 className="xl:text-[40px] md:text-3xl lg:text-4xl m-5 text-[16px] mx-5 2xl:mx-80 py-5 text-center font-extrabold">
-        Vi holder til midt på kSt. Hanshaugen i Oslo sentrum.
+      <h1 className="xl:text-[40px] leading-relaxed 2xl:text-[60px] md:text-3xl lg:text-4xl m-5 text-[16px] 2xl:mx-40 py-5 text-center font-extrabold">
+        Vi holder til midt på
+        <br />
+        <br />
+        St. Hanshaugen i Oslo sentrum.
       </h1>
-      <Button link="#footer" text="Bestill nå" change="text-[12px]" />
+      <Button link="#footer" text="Bestill nå" change="" />
     </div>
   );
 };
