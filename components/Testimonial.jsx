@@ -71,7 +71,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="sm:m-10 lg:m-14 2xl:m-20 my-5">
+    <div className="sm:m-10 lg:m-14 2xl:m-20 my-5 overflow-hidden">
       <div className="relative">
         <img
           src="/svg/testimonial.svg"
@@ -85,7 +85,7 @@ const Testimonial = () => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-between items-center relative p-5">
+      <div className="flex justify-center md:justify-between items-center relative p-5">
         {!hidArrows && (
           <IoIosArrowDropleftCircle
             onClick={prevBtn}
