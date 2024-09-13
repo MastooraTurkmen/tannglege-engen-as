@@ -1,5 +1,6 @@
 import {
-  Hero, Section2, Section3, Services, Sections, Testimonial, Section4, OpeningHourse, Section5
+  Hero, Section2, Section3, Services, Sections, Testimonial, Section4, OpeningHourse, Section5,
+  NewItems
 } from "@/components"
 
 const Home = () => {
@@ -8,11 +9,12 @@ const Home = () => {
       <Hero />
       <OpeningHourse />
       <Sections />
-      <Section2 />
+      <NewItems />
       <Section3 />
       <Testimonial />
       <Section4 />
-      <Services />
+      <Section2 />
+      {/* <Services /> */}
       <Section5 />
     </div>
   )
