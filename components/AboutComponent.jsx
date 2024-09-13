@@ -1,44 +1,31 @@
-import { imagse } from "@/contract/data";
-import { Button } from ".";
+import { about } from "@/contract/about";
 
 const AboutComponent = () => {
   return (
-    <div className="flex sm:flex-row flex-col">
-      <div
-        style={{
-          flexBasis: "35%",
-        }}
-        className="flex order-2 sm:order-1 mb-10 sm:m-3 xl:m-14 flex-col justify-center text-center items-center text-black"
-      >
-        <h1 className="md:text-3xl lg:text-4xl text-2xl font-bold">Om oss</h1>
-        <div className="bg-[#00B8FF] mt-[-8px] py-1 md:px-[65px] px-[30px] border-none"></div>
-        <p className="md:m-10 m-5 text-base lg:text-xl">
-          Tannlege Engen AS er en tannklinikk midt på St. Hanshaugen i Oslo
-          sentrum. Vi har lyse pene lokaler med moderne utstyr. 
+    <div className="text-black">
+      <div className="flex flex-col text-center justify-center items-center">
+        <h1 className="md:text-3xl xl:text-5xl text-2xl z-10 font-bold">
+          Møt nabolagets tannleger
+        </h1>
+        <div className="bg-[#00B8FF] z-0 mt-[-6px] py-2 md:px-[310px] px-[150px] border-none"></div>
+        <p className="lg:text-2xl lg:w-[600px] m-5">
+          Vi er glade for å være din nabolagtannlege og ta vare på familiens
+          tannlegebehov.
         </p>
-        <Button link="/services" text="Bestill en avtale" />
       </div>
-      <div
-        style={{
-          flexBasis: "65%",
-        }}
-        className="flex justify-center order-1 p-2 xl:px-10 sm:order-2 flex-wrap xl:gap-16 lg:gap-8 gap-5"
-      >
-        {imagse.map(({ id, image }) => {
+      <div className="flex mx-5 flex-wrap gap-10 justify-center items-center mt-10">
+        {about.map(({ id, image, name, position }) => {
           return (
-            <div key={id} className="relative lg:mb-20 mb-32">
-              <div
-                style={{
-                  borderRadius: "70px 0px 0px 0px",
-                }}
-                className="bg-[#00B8FF] h-[100px] w-[130px] md:w-[220px] md:h-[210px] lg:w-[240px] lg:h-[240px]"
-              ></div>
+            <div key={id}>
               <img
                 src={image}
-                className="md:w-[220px] md:h-[320px] lg:w-[240px] lg:h-[350px] top-[-110px] 
-                object-cover absolute  w-[130px] h-[250px]"
-                alt="Dintintis"
+                alt={name}
+                className="h-[400px] mb-20 flex z-10 rounded-t-md "
               />
+              <div className="p-10 flex flex-col mt-[-100px] justify-center shadow-md border rounded-md z-20 border-[#00415A] text-center">
+                <h1 className="text-2xl">{name}</h1>
+                <p>{position}</p>
+              </div>
             </div>
           );
         })}
