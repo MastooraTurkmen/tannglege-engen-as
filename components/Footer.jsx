@@ -17,7 +17,7 @@ const Footer = () => {
           <img
             src="/images/logo-no-background.png"
             alt="logo"
-            className="md:w-32 max-w-80"
+            className="max-w-80"
           />
         </a>
         {footerLinks.map(({ id, title, description }, index) => {
