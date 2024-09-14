@@ -86,8 +86,14 @@ const Navbar = () => {
                 </li>
               );
             })}
+            <Link
+              className="btn bg-[#00B8FF] text-[rgb(0,65,90)] hover:scale-110"
+              onClick={handleCloseMenu}
+              href="#footer"
+            >
+              Kontakt oss
+            </Link>
           </animated.ul>
-          <Button link="#footer" text="Kontakt oss" />
         </animated.div>
       )}
     </>
