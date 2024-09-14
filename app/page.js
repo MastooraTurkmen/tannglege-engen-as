@@ -8,12 +8,12 @@ const Home = () => {
     <div>
       <Hero />
       <OpeningHourse />
+      <Section2 />
       <Sections />
       <NewItems />
       <Section3 />
       <Testimonial />
-      <Section4 />
-      <Section2 />
+      {/* <Section4 /> */}
       {/* <Services /> */}
       <Section5 />
     </div>
