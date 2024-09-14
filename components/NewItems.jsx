@@ -7,7 +7,7 @@ const NewItems = () => {
     <div>
       <NewItemsComponent />
       <NewItemsComponent1 />
-      <NewItemsComponent2 />
+      {/* <NewItemsComponent2 /> */}
     </div>
   );
 };
