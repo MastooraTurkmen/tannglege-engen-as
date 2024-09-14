@@ -3,7 +3,7 @@ import { Button } from ".";
 
 const NewItemsComponent1 = () => {
   return (
-    <div className="flex flex-col md:flex-row p-10 xl:p-40 text-black relative mb-32">
+    <div className="flex flex-col md:flex-row p-10 xl:p-40 xl:pb-0 text-black relative mb-32">
       <div style={{ flexBasis: "50%" }} className="mb-10">
         <div className="flex flex-row items-start relative">
           <img
@@ -30,7 +30,11 @@ const NewItemsComponent1 = () => {
             The Best Dental Clinic
             <br /> That You Can Trust
           </h1>
-          <img src="/new-images/sprinkl.png" className="md:h-16 h-10" alt="spinkl" />
+          <img
+            src="/new-images/sprinkl.png"
+            className="md:h-16 h-10"
+            alt="spinkl"
+          />
         </div>
         <p className="md:w-[450px] text-[#636571]">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
