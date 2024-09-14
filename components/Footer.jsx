@@ -12,7 +12,7 @@ const Footer = () => {
       transition={{ ease: "easeOut", duration: 2 }}
       className="text-white footer-center bg-[#00415A] "
     >
-      <div className="flex md:gap-2 lg:gap-0 flex-col md:flex-row justify-between text-center items-center py-24 p-10 lg:p-20">
+      <div className="flex overflow-hidden md:gap-2 lg:gap-0 flex-col md:flex-row justify-between text-center items-center py-24 p-10 lg:py-20">
         <a href="/">
           <img
             src="/images/logo-no-background.png"
