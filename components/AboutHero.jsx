@@ -21,8 +21,8 @@ const AboutHero = () => {
         })}
       </div>
       <AboutComponent2 />
-      <Section3 />
-      <AboutComponent3 />
+      {/* <Section3 /> */}
+      {/* <AboutComponent3 /> */}
       <Section5 children="/new-images/Ellen.png" />
     </div>
   );
