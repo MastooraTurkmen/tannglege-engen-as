@@ -16,7 +16,7 @@ const ServicesComponents = () => {
               alt={title}
             />
             <h2 className="lg:text-2xl text-xl my-5 font-semibold">{title}</h2>
-            <p className="text-sm lg:text-base">{description}</p>
+            <p className="text-base lg:text-base">{description}</p>
           </div>
         );
       })}
