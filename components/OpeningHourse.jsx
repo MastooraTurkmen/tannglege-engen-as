@@ -11,10 +11,10 @@ const OpeningHourse = () => {
           return (
             <div key={id}>
               <div
-                className={`lg:w-[300px] lg:p-4 text-xl 2xl:w-[400px] flex h-40 md:h-24 md:w-[200px] flex-col ${
+                className={`lg:w-[300px] lg:p-4 text-xl 2xl:w-[400px] text-center items-center flex h-40 md:h-24 md:w-[200px] flex-col ${
                   isLast ? "md:border-x-2 md:border-y-0 border-y-2" : ""
                 } 
-              justify-center border-[#00415A] text-sm text-center items-center lg:text-base`}
+              justify-center border-[#00415A] text-center items-center lg:text-base`}
               >
                 <h1 className="mb-4 text-xl xl:text-2xl font-bold">{day}</h1>
                 <p className="text-xl xl:text-2xl md:m-auto">{time}</p>
