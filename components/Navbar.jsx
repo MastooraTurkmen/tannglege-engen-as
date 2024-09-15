@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-[hsl(197,100%,18%)] p-5 lg:px-10 fixed w-full z-20 shadow-lg items-center flex justify-between">
+      <div className="bg-[hsl(197,100%,18%)] p-6 lg:px-20 fixed w-full z-20 shadow-lg items-center flex justify-between">
         <a href="/">
           <img
             src="/images/logo-no-background.png"
@@ -50,7 +50,11 @@ const Navbar = () => {
                 className={`${isActive ? "underline underline-Change" : ""}`}
                 key={item.id}
               >
-                <Link onClick={handleCloseMenu} href={item.path}>
+                <Link
+                  className="active:text-whit"
+                  onClick={handleCloseMenu}
+                  href={item.path}
+                >
                   {item.text}
                 </Link>
               </li>
@@ -60,7 +64,7 @@ const Navbar = () => {
         <Button
           text="Kontakt oss"
           link="#footer"
-          change="hidden md:block text-[16px] md:pt-[10px]"
+          change="hidden md:block hover:text-white text-[16px] md:pt-[10px]"
         />
       </div>
 
@@ -87,7 +91,7 @@ const Navbar = () => {
               );
             })}
             <Link
-              className="btn bg-[#00B8FF] text-[rgb(0,65,90)] hover:scale-110"
+              className="btn bg-[#00B8FF] hover:text-white text-[rgb(0,65,90)] hover:scale-110"
               onClick={handleCloseMenu}
               href="#footer"
             >
