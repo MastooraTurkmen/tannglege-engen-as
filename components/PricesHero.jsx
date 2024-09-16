@@ -16,7 +16,7 @@ const PricesHero = () => {
           minus ev. refusjon fra Helfo
         </h1>
       </div>
-      <Section5 children="/images/Katrin.jpg" />
+      <Section5 children="/new-images/Catrin.png" />
     </>
   );
 };
