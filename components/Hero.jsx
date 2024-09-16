@@ -39,7 +39,7 @@ const Hero = () => {
         <br />
         St. Hanshaugen i Oslo sentrum.
       </h1>
-      <Button link="#footer" text="Bestill nå" change="hover:text-white" />
+      <Button link="#footer" text="Bestill nå" change="pt-0" />
     </div>
   );
 };
