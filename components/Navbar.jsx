@@ -29,7 +29,7 @@ const Navbar = () => {
           <img
             src="/images/logo-no-background.png"
             alt="logo"
-            className="md:w-52 h-9 sm:h-10 md:h-8 lg:w-full 2xl:h-12 lg:h-11 object-cover"
+            className="h-9 sm:h-10 lg:w-full 2xl:h-12 lg:h-11 object-cover"
           />
         </a>
         <img
@@ -82,9 +82,17 @@ const Navbar = () => {
           />
           <animated.ul className="text-white flex flex-col gap-10 text-xl">
             {link.map((item) => {
+              const isActive = pathname === item.path;
               return (
-                <li key={item.id}>
-                  <Link onClick={handleCloseMenu} href={item.path}>
+                <li
+                  key={item.id}
+                  className={`${isActive ? "underline underline-Change" : ""}`}
+                >
+                  <Link
+                    onClick={handleCloseMenu}
+                    className="hover:scale-100"
+                    href={item.path}
+                  >
                     {item.text}
                   </Link>
                 </li>
