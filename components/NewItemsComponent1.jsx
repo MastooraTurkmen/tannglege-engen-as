@@ -13,7 +13,7 @@ const NewItemsComponent1 = () => {
           />
           <img
             src="/new-images/sprinkl1.png"
-            className="md:w-20 w-10 absolute bottom-[150px] left-[270px] md:bottom-[240px] md:left-[380px]"
+            className="md:w-20 w-10 absolute bottom-[150px] left-[250px] md:bottom-[240px] md:left-[380px]"
             alt=""
           />
         </div>
@@ -22,13 +22,13 @@ const NewItemsComponent1 = () => {
         style={{ flexBasis: "50%" }}
         className="flex flex-col md:w-[500px] items-start"
       >
-        <button className="rounded border border-[#EEE] p-2 text-[#3267FF]">
+        <p className="rounded border border-[#EEE] p-2 text-[#3267FF]">
           More About Us
-        </button>
+        </p>
         <div className="flex gap-10 my-10">
           <h1 className="md:text-5xl text-2xl text-black font-semibold">
-            The Best Dental Clinic
-            <br /> That You Can Trust
+            Den beste tannklinikken
+            <br /> du kan stole på
           </h1>
           <img
             src="/new-images/sprinkl.png"
@@ -37,44 +37,43 @@ const NewItemsComponent1 = () => {
           />
         </div>
         <p className="md:w-[450px] text-[#636571]">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient.
+          Vår klinikk er forpliktet til å gi eksepsjonell tannbehandling i et
+          komfortabelt og innbydende miljø. Med et team av erfarne fagfolk,
+          prioriterer vi din munnhelse og sikrer behandlinger av høyeste
+          kvalitet.
         </p>
         <p className="my-5 md:w-[450px] text-[#636571]">
-          Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-          Duis leo. Sed fringilla mauris sit amet nibh.
+          Du kan stole på at vi leverer personlige løsninger for alle dine
+          tannhelsebehov.
         </p>
         <div className="flex flex-wrap gap-10 text-[18px]">
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <FaCheckCircle className="text-[#3267FF]" />
-              <p className="font-semibold">Modern Equipment</p>
+              <p className="font-semibold">Moderne utstyr</p>
             </div>
             <div className="flex items-center gap-3">
               <FaCheckCircle className="text-[#3267FF]" />
-              <p className="font-semibold">Easy Online Appointment</p>
+              <p className="font-semibold">Enkel samtaleavtale</p>
             </div>
           </div>
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <FaCheckCircle className="text-[#3267FF]" />
-              <p className="font-semibold">Comfortable CIinic</p>
+              <p className="font-semibold">Komfortabel klinikk</p>
             </div>
             <div className="flex items-center gap-3">
               <FaCheckCircle className="text-[#3267FF]" />
-              <p className="font-semibold">Always Monitored</p>
+              <p className="font-semibold">Alltid overvåket</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-10 mt-10">
-          <Button text="Learn More" link="/Tjenester" />
-          <Button
-            text="Make an Appointment"
-            link="#footer"
-            change="bg-white btn-primary"
-          />
-        </div>
+        <Button
+          text="Ring oss"
+          link="#footer"
+          change="mt-10
+        "
+        />
       </div>
     </div>
   );
