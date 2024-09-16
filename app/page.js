@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
+      <Services />
       <OpeningHourse />
       <Section2 />
       <Sections />
@@ -14,7 +15,6 @@ const Home = () => {
       <Section3 />
       <Testimonial />
       {/* <Section4 /> */}
-      {/* <Services /> */}
       <Section5 />
     </div>
   )
