@@ -14,9 +14,4 @@ export const link = [
         text: 'Priser',
         path: '/Priser'
     },
-    {
-        id: 4,
-        text: 'Tjenester',
-        path: '/Tjenester'
-    }
 ]
