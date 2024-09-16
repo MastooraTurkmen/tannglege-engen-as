@@ -11,7 +11,8 @@ const PricesComponent = () => {
         return (
           <div
             key={id}
-            className="bg-[#FBFAFA] flex flex-row w-full shadow-md rounded-xl items-center justify-between p-5 lg:p-10 lg:px-16 text-black"
+            className="bg-[#FBFAFA] flex flex-row w-full shadow-md 
+            rounded-xl items-start text-center justify-between gap-2 p-3 sm:p-5 lg:p-10 lg:px-16 text-black"
           >
             <h1>{type}</h1>
             <h1>{price}</h1>
