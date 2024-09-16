@@ -4,7 +4,7 @@ import NewItemsComponent2 from "./NewItemsComponent2";
 
 const NewItems = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <NewItemsComponent />
       <NewItemsComponent1 />
       {/* <NewItemsComponent2 /> */}
