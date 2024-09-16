@@ -13,7 +13,8 @@ const AboutHero = () => {
           return (
             <div
               key={id}
-              className="shadow-xl w-full m-3 lg:m-10 text-center flex justify-center sm:font-semibold h-[200px] text-sm sm:text-base p-10 border rounded-xl items-center"
+              className="shadow-xl w-full m-3 lg:m-10 text-center flex justify-center sm:font-semibold 
+              h-[200px] text-sm sm:text-base p-10 border rounded-xl items-center"
             >
               {text}
             </div>
