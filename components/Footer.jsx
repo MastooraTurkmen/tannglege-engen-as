@@ -48,7 +48,7 @@ const Footer = () => {
           <a
             target="_blanket"
             className="font-bold underline"
-            href="https://mastooraturkmen.me"
+            href="https://www.linkedin.com/in/mastoora-turkmen/"
           >
             Mastoora Turkmen
           </a>
